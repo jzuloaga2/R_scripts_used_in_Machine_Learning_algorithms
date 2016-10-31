@@ -18,7 +18,7 @@ df <- read.table("name_of_file.csv",
 	   stringsAsFactors = FALSE)
 
 #  **************************************************
-#  Define Learining Rate (alpha) and number of
+#  Define Learning Rate (alpha) and number of
 #  iterations:
 #  **************************************************
 
@@ -50,8 +50,7 @@ m <- nrow(X)
 #  **************************************************
 
 # Save original values of X before adjusting the
-# values for feature scaling, just in case we
-# will need them:
+# values for feature scaling:
 
 X_original <- X
 
